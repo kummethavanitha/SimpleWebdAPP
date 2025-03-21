@@ -1,0 +1,9 @@
+# Use the official Nginx image to serve static content
+FROM nginx:alpine
+
+# Copy the HTML file to the appropriate location in the container
+COPY index.html /usr/share/nginx/html/index.html
+
+# Expose port 80 (the port the Nginx web server will listen on)
+EXPOSE 80
+Here, we are using the official nginx image because Nginx is a simple web server that can serve static HTML files
