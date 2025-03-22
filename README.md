@@ -1,6 +1,9 @@
 Step 1: Install docker and kubernetes in your virtual machine 
 
 
+![docker & k8s installation](https://github.com/kummethavanitha/SimpleWebdAPP/blob/194ce4535d7c10cd1c1fedbf50d899831eb8863b/Docker%26kubernetes%20installation.PNG)
+
+
 Step 2: Create one directory and simple html page for the web application. THe file added in this repo will display "Hello kubernetes"
 
 
@@ -12,6 +15,9 @@ Step 2: Create one directory and simple html page for the web application. THe f
         
         ---> vi index.html
 
+
+
+![docker & k8s installation](https://github.com/kummethavanitha/SimpleWebdAPP/blob/194ce4535d7c10cd1c1fedbf50d899831eb8863b/Directory%26files.PNG)
 
 Step 3: Dockerize the html web application
 
