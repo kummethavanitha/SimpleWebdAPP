@@ -38,15 +38,15 @@ Step 3: Dockerize the html web application
 
 
 ![docker & k8s installation](https://github.com/kummethavanitha/SimpleWebdAPP/blob/a70ba5b78b1c042fc38b16232ed122cdf71baa67/docker-run.PNG)
+
+
+![docker & k8s installation](https://github.com/kummethavanitha/SimpleWebdAPP/blob/a70ba5b78b1c042fc38b16232ed122cdf71baa67/docker-out.PNG)
              
         ---> Tag the image and push the docker image to docker hub
              **docker tag <Image-name> <your-dockerhub-username>/<image-name>:latest**
              **docker push <your-dockerhub-username>/<image-name>:latest**
 
 ![docker & k8s installation](https://github.com/kummethavanitha/SimpleWebdAPP/blob/a70ba5b78b1c042fc38b16232ed122cdf71baa67/docker-push.PNG)
-
-
-![docker & k8s installation](https://github.com/kummethavanitha/SimpleWebdAPP/blob/a70ba5b78b1c042fc38b16232ed122cdf71baa67/docker-out.PNG)
 
 
 Step 4: Deploy Your container image to Kubernetes
