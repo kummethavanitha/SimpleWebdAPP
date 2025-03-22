@@ -22,7 +22,7 @@ Step 4: Deploy Your container image to Kubernetes
              **kubectl get pods**
              **kubectl get service**
 Step 5: Access Your Application
-        ---> 
-        
+        ---> Open the browser in your local machine and check the application using http://<internal-node-ip>:<port-no>
+        Note: check the port number in svc.yaml file 
         
              
