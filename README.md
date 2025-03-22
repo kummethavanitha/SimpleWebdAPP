@@ -1,4 +1,7 @@
 Step 1: Install docker and kubernetes in your virtual machine 
+
+        ![image alt](https://github.com/kummethavanitha/SimpleWebdAPP/blob/test/Docker&kubernetes%20installation.PNG?raw=true)
+      
 Step 2: Create one directory and simple html page for the web application. THe file added in this repo will display "Hello kubernetes"
         ---> mkdir simplewebapp
         ---> cd simplewebapp
