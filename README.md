@@ -29,14 +29,24 @@ Step 3: Dockerize the html web application
         ---> Build the image for the html web appplication using below command 
              **docker build -t <Image-name>**
 
+
+![docker & k8s installation](https://github.com/kummethavanitha/SimpleWebdAPP/blob/a70ba5b78b1c042fc38b16232ed122cdf71baa67/docker-build.PNG)
+
              
-        ---> After build run the container in local VM and test the application http://localhost:8080
+        ---> After build, run the container in local VM and test the application http://localhost:8080
              **docker run -p 8080:80 my-web-app**
 
+
+![docker & k8s installation](https://github.com/kummethavanitha/SimpleWebdAPP/blob/a70ba5b78b1c042fc38b16232ed122cdf71baa67/docker-run.PNG)
              
         ---> Tag the image and push the docker image to docker hub
              **docker tag <Image-name> <your-dockerhub-username>/<image-name>:latest**
              **docker push <your-dockerhub-username>/<image-name>:latest**
+
+![docker & k8s installation](https://github.com/kummethavanitha/SimpleWebdAPP/blob/a70ba5b78b1c042fc38b16232ed122cdf71baa67/docker-push.PNG)
+
+
+![docker & k8s installation](https://github.com/kummethavanitha/SimpleWebdAPP/blob/a70ba5b78b1c042fc38b16232ed122cdf71baa67/docker-out.PNG)
 
 
 Step 4: Deploy Your container image to Kubernetes
@@ -53,6 +63,9 @@ Step 4: Deploy Your container image to Kubernetes
              **kubectl get service**
 
 
+![docker & k8s installation](https://github.com/kummethavanitha/SimpleWebdAPP/blob/a70ba5b78b1c042fc38b16232ed122cdf71baa67/k8s-deploy.PNG)
+
+
 Step 5: Access Your Application
 
 
@@ -60,5 +73,8 @@ Step 5: Access Your Application
        
         
         Note: check the port number in svc.yaml file 
+
+
+ ![docker & k8s installation](https://github.com/kummethavanitha/SimpleWebdAPP/blob/a70ba5b78b1c042fc38b16232ed122cdf71baa67/k8s-out.PNG)
         
              
