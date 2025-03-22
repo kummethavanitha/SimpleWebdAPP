@@ -1,4 +1,4 @@
-Step 1: Install docker and kubernetes in your virtual machine 
+Step 1: Install docker and kubernetes in your virtual machine. Steps are added in respective text files.
 
 
 ![docker & k8s installation](https://github.com/kummethavanitha/SimpleWebdAPP/blob/194ce4535d7c10cd1c1fedbf50d899831eb8863b/Docker%26kubernetes%20installation.PNG)
